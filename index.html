@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Dev</title>
+</head>
+
+<body>
+  <script>
+    // log to the console a random number from given array with an interval of 1 second
+    const numbers = [1, 4, 7, 14, 20, 27, 34];
+
+    setInterval(function() {
+      var rand = numbers[Math.floor(Math.random() * numbers.length)];
+
+      console.log(rand);
+
+    }, 1000);
+  </script>
+</body>
+
+</html>
